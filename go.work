@@ -1,0 +1,8 @@
+go 1.23.3
+
+use (
+	./channels
+	./mutexes_confinement/with_confinement
+	./mutexes_confinement/with_mutex
+	./worker_pool
+)
